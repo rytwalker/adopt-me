@@ -30,7 +30,7 @@ export default App;
 */
 
 import React, { useState } from "react";
-// import { render } from "react-dom";
+import { render } from "react-dom";
 import { Router } from "@reach/router";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+render(<App />, document.getElementById("root"));
