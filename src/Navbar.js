@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header
       css={css`
-        background-color: ${colors.primary};
+        background-color: ${colors.transparent};
         padding: 15px;
       `}
     >
@@ -24,7 +24,6 @@ const Navbar = () => {
         css={css`
           font-size: 60px;
           display: inline-block;
-          /* animation: 1s ${spin} linear infinite; */
         `}
       >
         🐩
