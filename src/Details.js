@@ -1,13 +1,13 @@
-import React, { Component, lazy } from "react";
+import React, { Component } from "react";
 import pet from "@frontendmasters/pet";
 import { navigate } from "@reach/router";
-// import Modal from "./Modal";
+import Modal from "./Modal";
 import Carousel from "./Carousel";
 import ErrorBoundary from "./ErrorBoundary";
 import ThemeContext from "./ThemeContext";
 
 // don't need a new Suspense just uses top level
-const Modal = lazy(() => import("./Modal"));
+// const Modal = lazy(() => import("./Modal"));
 
 class Details extends Component {
   state = { loading: true, showModal: false };
