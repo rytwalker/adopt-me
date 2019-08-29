@@ -9,7 +9,8 @@
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "tslint --project",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm -s run build && babel-node server/index.js"
+    "start": "npm -s run build && babel-node server/index.js",
+    "typecheck": "tsc --noEmit"
   },
   "author": "",
   "license": "ISC",
